@@ -68,4 +68,24 @@ Adoption of HTTP/2 is done by modern browsers by default.
 - The cache maintenance feature is enhanced with the server push mechanism which helps to cancel the pushed stream if it already exists in the local cache.
 
 
+___________________________________________________________________________________________________________________________________________________________________________
+
+
+# Objects and its internal representation in Javascript
+
+## Object
+
+An object is a stand-alone entity or element, which contains different properties and belongs to a single type. It can also be defined as an unordered collection of related data of primitive or reference types. Every data item is an object in Javascript which can be strings, numbers, booleans, dates, null, undefined, and math expressions as well. The context of an object would be in the form of Key-value pairs where keys can be variables or functions and also called properties and methods. Functions that receive properties and return values are objects themselves. 
+
+For instance, we can code student details in an object named ‘Student’ with the properties of student name, email-id, course-name, duration, and fees-amount. We can say this as an unordered set of name/value pairs. In Javascript, the object is an important data type and works as the building block for modern code. 
+
+## Internal Representation
+
+An object begins with ’{‘ left brace and ends with ‘}’ right brace. In this object, the name is followed by a ‘:’ colon and value. Each name/value pairs are separated by a ‘,’ comma.  Usually, we do not create an object inside an object, instead, we use literal syntax {}. In this, we can again have keys and properties. A string representation of an object is called Object Object!  All the objects are stored on a heap of memory.
+
+In Javascript, an object is a reference data type. Variables that are assigned a reference value are given a pointer to that value. That pointer references the location in the memory where the objects are stored. So, the variables do not actually store the value. Keys can be variables or functions and are called properties and methods. 
+
+Objects can also be created using constructors in Javascript, which creates a prototype pattern. It creates an object wrapper for the given values. The ‘new’ keyword allows initializing new objects.  In Object-Oriented Programming languages, Constructors provide a template for creating objects. The object definition helps to define a set of properties and methods that would be common to all objects. Having more than one function in a class with the name of the constructor gives an error.  Objects can also be created using the prototyping method. 
+
+
 
